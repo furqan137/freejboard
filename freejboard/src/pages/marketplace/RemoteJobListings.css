@@ -1,0 +1,84 @@
+
+/* Enhanced RemoteJobListings.css */
+
+.remote-job-listings {
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f9f9ff;
+    border-radius: 10px;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.remote-job-listings h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.remote-job-listings p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.remote-job-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.remote-job-card {
+    padding: 20px;
+    background-color: #eef6ff;
+    border: 1px solid #ccddee;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.remote-job-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.remote-job-card h3 {
+    font-size: 1.8rem;
+    color: #0055aa;
+    margin-bottom: 10px;
+}
+
+.job-company, .job-location, .job-description, .job-salary {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.job-salary {
+    font-weight: bold;
+    color: #42855B;
+}
+
+.apply-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}

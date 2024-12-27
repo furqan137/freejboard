@@ -1,0 +1,120 @@
+.hire-freelancer-page {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  .page-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .page-header h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+  }
+  
+  .page-header p {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
+  .filters-section {
+    margin-bottom: 30px;
+  }
+  
+  .filters-section h2 {
+    font-size: 1.8rem;
+    color: #343a40;
+    margin-bottom: 10px;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .filters select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    flex: 1;
+  }
+  
+  .filters .btn-primary {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .filters .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .freelancers-section {
+    margin-top: 20px;
+  }
+  
+  .freelancers-section h2 {
+    font-size: 1.8rem;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .freelancer-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .freelancer-card {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .freelancer-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .freelancer-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .freelancer-card p {
+    margin: 5px 0;
+    color: #6c757d;
+  }
+  
+  .freelancer-card .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .freelancer-card .btn-secondary {
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .freelancer-card .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  

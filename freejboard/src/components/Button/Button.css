@@ -1,0 +1,43 @@
+/* General button styling */
+.button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Primary variant styling */
+  .button.primary {
+    background-color: #42855B;
+    color: white;
+  }
+  
+  .button.primary:hover {
+    background-color: #90B77D;
+  }
+  
+  /* Secondary variant styling */
+  .button.secondary {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+  
+  .button.secondary:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Disabled state styling */
+  .button:disabled {
+    background-color: #ddd;
+    color: #aaa;
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
