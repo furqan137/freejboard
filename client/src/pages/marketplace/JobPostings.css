@@ -1,0 +1,92 @@
+/* Enhanced JobPostings.css */
+
+.job-postings {
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.job-postings h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.job-postings p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.job-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.job-card {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.job-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.job-card h3 {
+    font-size: 1.8rem;
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+.job-details {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.job-salary {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #42855B;
+    margin-bottom: 10px;
+}
+
+.job-description {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.apply-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
