@@ -1,0 +1,107 @@
+/* Base styles */
+.manage {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #f4f7fc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Orders and Proposals Sections */
+.orders-section, .proposals-section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #f9f9f9;
+}
+
+.order-item, .proposal-item {
+  font-size: 16px;
+}
+
+.order-item.completed, .proposal-item.accepted {
+  background-color: #d4edda;
+}
+
+.order-item.in-progress, .proposal-item.pending {
+  background-color: #fff3cd;
+}
+
+.order-title, .proposal-job {
+  font-weight: bold;
+  color: #333;
+}
+
+.order-status, .proposal-status {
+  font-style: italic;
+  color: #888;
+}
+
+.order-date, .proposal-date {
+  color: #666;
+}
+
+/* Stats Section */
+.stats-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.stats-section h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.stats-item {
+  margin-bottom: 10px;
+}
+
+strong {
+  color: #007bff;
+  font-size: 18px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .manage {
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}

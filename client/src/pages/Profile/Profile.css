@@ -1,0 +1,106 @@
+/* Enhanced Profile.css for Freelancer and Buyer Profiles */
+
+.profile-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.profile-name {
+  font-size: 1.8rem;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-email, .profile-phone, .profile-address {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.profile-section {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.profile-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #42855B;
+}
+
+.skills-list, .services-list, .reviews-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-item, .service-item, .review-item {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.review-item strong {
+  color: #333;
+}
+
+.profile-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.profile-edit-button, .profile-message-button, .profile-logout-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.profile-edit-button {
+  background-color: #42855B;
+  color: white;
+}
+
+.profile-edit-button:hover {
+  background-color: #90B77D;
+}
+
+.profile-message-button {
+  background-color: #0056b3;
+  color: white;
+}
+
+.profile-message-button:hover {
+  background-color: #003f8a;
+}
+
+.profile-logout-button {
+  background-color: #d9534f;
+  color: white;
+}
+
+.profile-logout-button:hover {
+  background-color: #c9302c;
+}
