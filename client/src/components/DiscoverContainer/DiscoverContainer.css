@@ -1,0 +1,60 @@
+.discover-container {
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(251, 232, 86, 0.5); /* Dark overlay for text readability */
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .discover-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .discover-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #42855B;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .discover-button:hover {
+    background-color: #90B77D;
+  }
+  

@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build
+client/dist/
+dist/
+build/
+
+# Env / secrets
+.env
+server/.env
+client/.env
+*.local
+
+# Logs / OS / IDE
+logs/
+*.log
+npm-debug.log*
+.DS_Store
+.vscode/
+.idea/
+
+# Misc
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
