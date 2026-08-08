@@ -1,0 +1,107 @@
+.fj-footer {
+  margin-top: auto;
+  background:
+    linear-gradient(180deg, rgba(15, 122, 102, 0.06), transparent 40%),
+    #0b1f1c;
+  color: rgba(255, 255, 255, 0.78);
+  padding: 3.5rem 1.25rem 1.5rem;
+}
+
+.fj-footer__top {
+  max-width: 1240px;
+  margin: 0 auto 2.5rem;
+  display: grid;
+  gap: 2.5rem;
+}
+
+.fj-footer__logo {
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.7rem;
+}
+
+.fj-footer__brand p:last-child {
+  max-width: 34ch;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.fj-footer__cols {
+  display: grid;
+  gap: 1.75rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.fj-footer__col h3 {
+  color: #fff;
+  font-size: 0.95rem;
+  margin-bottom: 0.9rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.fj-footer__col ul {
+  list-style: none;
+}
+
+.fj-footer__col li {
+  margin-bottom: 0.55rem;
+}
+
+.fj-footer__col a {
+  color: rgba(255, 255, 255, 0.72);
+  font-weight: 500;
+  transition: color 0.25s var(--ease), padding-left 0.25s var(--ease);
+}
+
+.fj-footer__col a:hover {
+  color: #fff;
+  padding-left: 4px;
+}
+
+.fj-footer__bottom {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fj-footer__bottom p {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.9rem;
+}
+
+.fj-footer__social {
+  display: flex;
+  gap: 1rem;
+}
+
+.fj-footer__social a {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: color 0.25s var(--ease), transform 0.25s var(--ease);
+}
+
+.fj-footer__social a:hover {
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 900px) {
+  .fj-footer__top {
+    grid-template-columns: 1.1fr 2fr;
+    align-items: start;
+  }
+
+  .fj-footer__cols {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

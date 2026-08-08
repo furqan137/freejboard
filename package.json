@@ -1,0 +1,11 @@
+{
+  "name": "freejboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:client": "node init && npm --prefix client run dev",
+    "dev:server": "node init && npm --prefix server run dev",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "start": "node init && npm run dev:server"
+  }
+}

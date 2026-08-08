@@ -1,0 +1,108 @@
+/* Base styles for the Inbox page */
+.inbox {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Styling for the message list */
+  .messages-list {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow-y: auto;
+  }
+  
+  .message-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .message-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .message-summary {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .message-subject {
+    font-weight: bold;
+    color: #333;
+    width: 40%;
+  }
+  
+  .message-sender, .message-date {
+    color: #888;
+  }
+  
+  /* Styling for the selected message details */
+  .message-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-details h2 {
+    color: #333;
+    margin-top: 0;
+  }
+  
+  .message-content {
+    margin-top: 15px;
+  }
+  
+  .message-content p {
+    color: #555;
+  }
+  
+  /* Back button for message details */
+  .back-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .inbox {
+      padding: 10px;
+    }
+  
+    .message-subject {
+      width: 30%;
+    }
+  
+    .message-item {
+      padding: 12px;
+    }
+  
+    .message-details {
+      padding: 15px;
+    }
+  
+    .back-button {
+      padding: 8px 12px;
+    }
+  }
+  
